@@ -173,9 +173,11 @@ li {
   clear: both;
   height:2px;
   background-color: gray;
+  z-index: -1;
 }
 #bottom-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  z-index: 1;
 }
