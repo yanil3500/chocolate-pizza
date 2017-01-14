@@ -1,4 +1,129 @@
 h1 {
-  color: blue;
-  background-color: orange;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 0;
+}
+h6 {
+  font-family: 'Oswald', sans-serif;
+  color: gray;
+  margin: 0;
+}
+body {
+  width:100%;
+}
+nav {
+  margin-bottom: 1em;
+}
+.list{
+  width:100%;
+}
+.line-break{
+  display: block;
+}
+#master-container{
+  margin: auto;
+  max-width: 50%;
+}
+#sugar {
+  text-decoration: line-through;
+}
+#egg{
+  text-decoration: line-through;
+}
+p {
+
+  font-family: 'Playfair Display', serif;
+}
+.top-left {
+  display: inline-flex;
+}
+.social-icons{
+  display: inline-block;
+  float: right;
+  margin-top: 2em;
+}
+ul li {
+  list-style-type: none;
+}
+.checkboxes {
+  background-image: url('img/list.png');
+  font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-box-shadow: 10px 10px 24px -2px rgba(0,0,0,0.39);
+  -moz-box-shadow: 10px 10px 24px -2px rgba(0,0,0,0.39);
+  box-shadow: 10px 10px 24px -2px rgba(0,0,0,0.39);
+}
+.right-checkbox{
+  padding: 2em;
+  display: inline-block;
+  float: right;
+}
+.left-checkbox {
+  padding: 2em;
+  display: inline-block;;
+}
+
+#checklist-container {
+  background-image: url('/chocolate-pizza/img/list-bg.png');
+  height:100px;
+}
+#delicious-logo-top-left {
+  width: 50px;
+}
+#delicious-text {
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+}
+#best-food-line-font {
+  font-size: 10px;
+  font-family: 'Pacifico', cursive;
+}
+#delicious-logo {
+  display: inline;
+  list-style-type: none;
+  padding: 0;
+}
+#delicious-logo-text{
+  display: block;
+  text-align: left;
+  margin-top: 2em;
+}
+#delicious-logo-text{
+  padding: 0;
+}
+#best-food-line {
+  list-style-type: none;
+  display: block;
+  padding: 0;
+}
+
+#choco-pizza-pic{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#print-icon{
+  font-size: 10px;
+  text-align: right;
+  display: inline;
+}
+#print-icon p {
+  margin: 0;
+  color:gray;
+}
+
+li {
+  display: inline;
+}
+#invisibilia {
+  visibility: hidden;
+}
+
+.separator {
+  height: 10px;
+  background-color: grey;
+}
+#separatorTwo {
+  margin-top: 20px;
+  height: 10px;
+  background-color: grey;
 }
