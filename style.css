@@ -13,12 +13,17 @@ body {
 }
 nav {
   margin-bottom: 1em;
+  display: inline;
 }
 .list{
   width:100%;
 }
 .line-break{
   display: block;
+}
+.lorem {
+  text-indent: 50px;
+  text-align: justify;
 }
 #master-container{
   margin: auto;
@@ -37,10 +42,11 @@ p {
 .top-left {
   display: inline-flex;
 }
-.social-icons{
-  display: inline-block;
+#social-icons{
   float: right;
+  display: inline;
   margin-top: 2em;
+
 }
 ul li {
   list-style-type: none;
@@ -123,7 +129,41 @@ li {
   background-color: grey;
 }
 #separatorTwo {
-  margin-top: 20px;
+  margin-top: 2em;
   height: 10px;
   background-color: grey;
+  margin-bottom: 1em;
+}
+#author {
+  display: inline-block;
+  float:left;
+}
+#vanessa-text{
+  text-align: justify;
+  margin: 0.5em;
+  font-size: 12px;
+  max-width: 75%;
+  margin: 0;
+}
+#vanessa-pic{
+  display: inline;
+  height:80px;
+  width:80px;
+  float: left;
+}
+#vanessa-name{
+  display: inline;
+  font-weight: 900;
+  margin-top: 0.5em;
+}
+#share-button{
+  margin-top 1em;:
+  display: inline-block;
+  float: right;
+  background-color: #FFBFA5;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#share-button p {
+  color: white;
 }
