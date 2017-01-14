@@ -137,6 +137,7 @@ li {
 #author {
   display: inline-block;
   float:left;
+  margin-bottom: 1em;
 }
 #vanessa-text{
   text-align: justify;
@@ -166,4 +167,15 @@ li {
 }
 #share-button p {
   color: white;
+}
+#bottom-line {
+  margin-top:1em;
+  clear: both;
+  height:2px;
+  background-color: gray;
+}
+#bottom-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
